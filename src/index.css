@@ -44,19 +44,57 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .annual-sales em { display: block; font-size: 14px; color: #23734f; font-style: normal; margin-top: 4px; }
 .dark-mode { background: #101820; color: #f4f7fa; }
 .dark-mode .main-content, .dark-mode .editor-page { background: #101820; }
-.dark-mode .topbar, .dark-mode .table-card, .dark-mode .stat-card, .dark-mode .settings-card, .dark-mode .form-section, .dark-mode .modal, .dark-mode .preview-actions { background: #182631; border-color: #314553; }
-.dark-mode .topbar h1, .dark-mode .content h2, .dark-mode .section-heading h3, .dark-mode .page-intro h2, .dark-mode .stat-card strong, .dark-mode .client-main h3, .dark-mode .product-row > div:nth-child(2) strong, .dark-mode .section-title h3, .dark-mode .modal h3 { color: #f4f7fa; }
-.dark-mode .topbar, .dark-mode .eyebrow, .dark-mode .content p, .dark-mode .section-heading p, .dark-mode .page-intro p, .dark-mode .stat-card span, .dark-mode .stat-card small, .dark-mode .client-main span, .dark-mode .client-main small, .dark-mode label { color: #c5d0d8; }
-.dark-mode input, .dark-mode select, .dark-mode textarea, .dark-mode .search-box, .dark-mode .segmented, .dark-mode .outline-button, .dark-mode .icon-button { background: #22333f; border-color: #526572; color: #f4f7fa; }
+.dark-mode .topbar, .dark-mode .table-card, .dark-mode .stat-card, .dark-mode .settings-card, .dark-mode .form-section, .dark-mode .modal, .dark-mode .preview-actions, .dark-mode .welcome, .dark-mode .editor-topbar, .dark-mode .client-card, .dark-mode .product-row, .dark-mode .items-table, .dark-mode .search-box, .dark-mode .segmented, .dark-mode .type-toggle { background: #182631; border-color: #314553; }
+.dark-mode .welcome { background: linear-gradient(110deg, #1a3040, #182631 68%); border-color: #2a4453; }
+.dark-mode .topbar h1, .dark-mode .content h2, .dark-mode .editor-page h2, .dark-mode .form-heading h2, .dark-mode .section-heading h3, .dark-mode .page-intro h2, .dark-mode .stat-card strong, .dark-mode .client-main h3, .dark-mode .product-row > div:nth-child(2) strong, .dark-mode .section-title h3, .dark-mode .modal h3, .dark-mode .settings-brand h3 { color: #f4f7fa; }
+.dark-mode .topbar, .dark-mode .eyebrow, .dark-mode .content p, .dark-mode .section-heading p, .dark-mode .page-intro p, .dark-mode .stat-card span, .dark-mode .stat-card small, .dark-mode .client-main span, .dark-mode .client-main small, .dark-mode label, .dark-mode .welcome p, .dark-mode .form-heading p { color: #c5d0d8; }
+.dark-mode input, .dark-mode select, .dark-mode textarea, .dark-mode .outline-button, .dark-mode .icon-button { background: #22333f; border-color: #526572; color: #f4f7fa; }
+.dark-mode .search-box { background: #22333f; border-color: #526572; color: #c5d0d8; }
+.dark-mode .search-box input { color: #f4f7fa; }
+.dark-mode .segmented, .dark-mode .type-toggle { background: #22333f; border-color: #526572; }
 .dark-mode th { background: #22333f; color: #dce6ed; border-color: #40535f; }
-.dark-mode td, .dark-mode tbody tr, .dark-mode .client-card, .dark-mode .product-row { border-color: #40535f; color: #e5edf2; background: #182631; }
+.dark-mode td { color: #e5edf2; border-color: #314553; }
+.dark-mode td strong { color: #f4f7fa; }
+.dark-mode td small { color: #a8b8c5; }
+.dark-mode tbody tr:hover { background: #1f3340; }
 .dark-mode .text-button, .dark-mode .folio-link { color: #66d5f4; }
+.dark-mode .pill { background: #1a3a48; color: #66d5f4; }
+.dark-mode .type-badge.remision { background: #143a48; color: #66d5f4; }
+.dark-mode .type-badge.cotizacion { background: #3a2a14; color: #f0a85a; }
+.dark-mode .empty-state { color: #a8b8c5; }
+.dark-mode .empty-state strong { color: #dce6ed; }
+.dark-mode .client-avatar { background: #1a3a48; color: #66d5f4; }
+.dark-mode .product-icon { background: #1a3a48; color: #66d5f4; }
+.dark-mode .unit-pill { background: #22333f; color: #a8b8c5; }
+.dark-mode .product-price { color: #dce6ed; }
+.dark-mode .stat-icon.blue { background: #143a48; color: #66d5f4; }
+.dark-mode .stat-icon.orange { background: #3a2a14; color: #f0a85a; }
+.dark-mode .stat-icon.green { background: #143a3a; color: #5edbb0; }
+.dark-mode .stat-icon.navy { background: #1a3040; color: #8ab8d8; }
+.dark-mode .items-head { background: #22333f; color: #dce6ed; }
+.dark-mode .item-row { border-color: #314553; }
+.dark-mode .item-row strong { color: #dce6ed; }
+.dark-mode .item-number { color: #a8b8c5; }
+.dark-mode .totals > div { color: #a8b8c5; }
+.dark-mode .totals strong { color: #dce6ed; }
+.dark-mode .grand-total { color: #f4f7fa !important; }
+.dark-mode .grand-total strong { color: #66d5f4; }
+.dark-mode .back-button { color: #a8b8c5; }
+.dark-mode .add-line { color: #66d5f4; }
+.dark-mode .delete-line { color: #8a9ba8; }
+.dark-mode .signature-space { color: #8a9ba8; }
+.dark-mode .signature-space strong { color: #c5d0d8; }
+.dark-mode .upload-button { background: #22333f; border-color: #2a6072; color: #66d5f4; }
+.dark-mode .logo-preview { background: #1a3a48; border-color: #2a6072; color: #66d5f4; }
+.dark-mode input[readonly] { background: #1a2630; color: #8a9ba8; }
 .dark-mode .annual-sales em { background: #23734f55; color: #b8f0d1; padding: 4px 8px; border-radius: 6px; white-space: nowrap; }
 .dark-mode .modal-backdrop { background: #05090ccc; }
 .dark-mode .paper, .dark-mode .paper * { background-color: #fff; color: #263d50; }
 .dark-mode .paper-title h2, .dark-mode .paper th, .dark-mode .paper-notes h4 { color: #fff; }
 .dark-mode .paper-title h2 { background: transparent; color: #00a9e0; }
 .dark-mode .paper th, .dark-mode .paper-notes h4 { background-color: #00a9e0; }
+.dark-mode .row-actions button, .dark-mode .card-actions button, .dark-mode .product-row > button { background: #22333f; border-color: #40535f; color: #a8b8c5; }
+.dark-mode .row-actions button:hover, .dark-mode .card-actions button:hover, .dark-mode .product-row > button:hover { color: #66d5f4; border-color: #2a6072; }
 @media (max-width: 650px) { .dark-mode .responsive-table tr { background: #182631; } .dark-mode .responsive-table td::before { color: #c5d0d8; } .dark-mode .top-actions { display: none; } }
 .stat-card, .client-card, .product-row { min-height: 112px; }
 .cards-grid, .stats-grid { gap: 16px; }
